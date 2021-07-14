@@ -14,7 +14,7 @@ mongodb_client = PyMongo(app, uri={os.getenv("MONGO_URL")})
 def handle_update():
     return {
         'status': "/get-update",
-        'message': "active serve"
+        'message': "server is now live!"
     }
 
 
